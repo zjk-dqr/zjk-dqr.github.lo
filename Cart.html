@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"  />
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
+		<script src="bootstrap-3.3.7-dist/js/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/Cart.css"/>
+		
+		<script src="js/Cart.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			
+			<span class="icon-back back"><a href="index.html"><</a></span>
+			<em>购物车</em>
+			
+		</header>
+        <div class="container">
+        	
+        </div>
+        
+        
+        
+        <!--底部-->
+        <footer>
+	        <label><input type="checkbox" name="" id="allCheck" value="" />全选</label>
+	        <em>总计：￥<span id="totPirce">0</span>.00</em>
+	        
+
+	        <a href="#" id="pay" data-toggle="modal" data-target="#myModal">去结算</a>
+        </footer>
+        
+        
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="dialog">
+	        	<div class="modal-dialog">
+  					  <div class="modal-content">
+  					  	<div  class="modal-header">
+  					  		<h4>您确定要删除此商品吗？</h4>
+		        				<button type="button" class="ok" data-dismiss="modal">确定</button>
+		        				<button type="button" data-dismiss="modal">取消</button>
+  					  	</div>
+						
+		       		 </div>
+		        </div> 
+	        </div>
+        </div>
+    
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="dialog">
+	        	<div class="modal-dialog">
+  					  <div class="modal-content">
+  					  	<div  class="modal-header" id="jieshuan">
+  					  	
+  					  	</div>
+		       		 </div>
+		        </div> 
+	        </div>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<span class="icon-back"><a href="index.html"><</a></span>
+			<em>商品详情</em>
+		</header>
+		<main>
+			<div class="container">
+				<div class="goods-info">
+					<div class="goods-banner">
+						<img src="img/images/首页/book.png" />
+					</div>
+					<div class="goods-detail">
+						<h1>C#编程基础</h1>
+						<ul>
+							<li>商品价格：<em id="price">￥59,00</em></li>
+			            <li id="major">专业：移动互联网开发  移动互联网应用</li>
+			            <li>数量：<input type="number" value="1" />册</li>
+						</ul>
+					</div>
+				</div>
+				<div class="goods-details">
+					<div class="detail-hds">
+						<ul>
+	                    <li class="one detail-hds-li">图文详情</li>
+					    <li >规格参数</li>
+					    <li >评价(199)</li>
+						</ul>
+						<div class="clearfix"></div>
+					</div>
+					<div>
+						<div class="detail-content detail-content1">
+							<img src="img/images/商品详情/详情-sql.jpg"/>	
+							<img src="img/images/商品详情/详情-winform.jpg"/>
+							<img src="img/images/商品详情/详情-计算机.jpg"/>
+						</div>
+						<div class="detail-content">
+							<img src="img/images/img/loading.gif" class="loading"/>
+							<p>等待加载 规格参数……</p>
+						</div>
+						<div class="detail-content">
+							<img src="img/images/img/loading.gif" class="loading"/>
+							<p>等待加载 评论……</p>
+						</div>
+					</div>
+						
+				</div>
+			</div>
+		</main>
+		<footer>
+			<span>
+				<a href="#" class="fav favOne"><img src="img/images/商品详情/详情-收藏.png"/><em>收藏</em></a>
+				<a href="Cart.html" class="fav favTwo"><img src="img/images/商品详情/详情-购物车.png"/><em>购物车</em></a>	
+			</span>
+			<a href="Cart.html" class="money">去结算</a>
+			<a href="Cart.html" class="addCart">加入购物车</a>
+		</footer>
+
+	</body>
+</html>
